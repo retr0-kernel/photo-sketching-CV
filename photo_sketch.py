@@ -3,7 +3,7 @@ import cv2
 import scipy.ndimage
 
 #Read the image
-Path = r"C:\Users\Prashant Srivastava\Desktop\Krish Projects\Photo Sketching\sketch.jpg"
+Path = r"PATH OF FILE IN YOUR COMPUTER.jpg"
 img = cv2.imread(Path)
 img = cv2.resize(img,(1400,800))
 
